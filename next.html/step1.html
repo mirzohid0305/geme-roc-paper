@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Geme roc paper</title>
+    <link rel="stylesheet" href="./stayl.css" />
+  </head>
+  <body>
+    <main class="main">
+      <section class="aside container">
+        <img onclick="playerChoice('rock')" class="aside__img" src="./img/leadership.jpg" alt="leadership" />
+        <p class="aside__text"><b>Rock</b></p>
+        <img onclick="playerChoice('paper')"  class="aside__img" src="./img/scissors.jpg" alt="scissors" />
+        <p class="aside__text"><b>Paper</b></p>
+        <img onclick="playerChoice('scissors')"  class="aside__img" src="./img/hand.jpg" alt="hand" />
+        <p class="aside__text"><b>Scissors</b></p>
+      </section>
+      <section class="about container">
+        <div class="d-flex">
+          <img id="player-choice" class="about__img" src="./img/hand.jpg" alt="hand">
+          <img src="./img/VS.png" alt="VS" />
+          <img id="computer-choice" class="about__img" src="./img/scissors.jpg" alt="scissors">
+        </div>
+        <div class="about__flex">
+          <p>you</p>
+          <p>computer</p>
+        </div>
+        <div class="about__start">
+          <a  id="result"  class="about__link" href="#">Start</a>
+        </div>
+        
+      </section>
+    </main>
+    <script src="./scrip.js"></script>
+  </body>
+</html>
